@@ -1,0 +1,57 @@
+.watch{
+    width: 550px;
+    padding: 40px 20px 20px;
+    position: relative;
+    left: 400px;
+    top: 120px;
+}
+.container{
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    background: linear-gradient(to right,rgb(147, 147, 200),rgb(229, 142, 185),rgb(154, 219, 157));
+}
+.timing,.info{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+    margin: 10px 28px;
+    width: 50px;
+    text-align: center;
+}
+h1{
+    margin: 20px;
+}
+.button{
+    margin: 25px 0;
+    width: 500px;
+    text-align: center;
+    cursor: pointer;
+}
+#hrs,#min,#sec{
+    border: 1px solid rgb(11, 174, 224);
+    width: 30px;
+    padding: 30px;
+    border-radius: 50%;
+}
+button{
+    margin: 10px;
+    font-size: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.start{
+    background: green;
+    color:white;
+}
+.stop{
+    background: black;
+    color: white;
+}
+.reset{
+    background: yellow;
+    color: white;
+}
